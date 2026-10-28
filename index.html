@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doki Doki Second Draft</title>
+  <meta name="description" content="Same club. Kinder story. A free, wholesome, full-length Doki Doki Literature Club fan mod.">
+  <meta property="og:title" content="Doki Doki Second Draft">
+  <meta property="og:description" content="Same club. Kinder story. A free, wholesome, full-length DDLC fan mod. Demo out now.">
+  <meta property="og:image" content="https://aoi-doki.github.io/ddsd/assets/banner.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#ff8fbf">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav" id="top">
+  <a class="nav-logo" href="#top"><img src="assets/logo.png" alt=""><span>DDSD</span></a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  <div class="nav-links">
+    <a href="#trailer">Trailer</a>
+    <a href="#club">The Club</a>
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#devlog">Devlog</a>
+    <a href="#discord">Discord</a>
+    <a class="nav-cta" href="#download">Download</a>
+  </div>
+</nav>
+
+<!-- ============================================================ HERO -->
+<header class="hero">
+  <img class="hero-logo" src="assets/logo.png" alt="Doki Doki Second Draft">
+  <p class="hero-tag">Same club. <em>Kinder story.</em></p>
+  <p class="hero-sub">A free, full-length, wholesome fan mod for <b>Doki Doki Literature Club!</b><br>
+    A whole school year with Sayori, Natsuki, Yuri and Monika. No horror. No tricks.</p>
+  <div class="hero-buttons">
+    <a class="btn btn-pink" href="https://needy-aoi.itch.io/doki-doki-second-draft" target="_blank" rel="noopener">Play the demo (free)</a>
+    <a class="btn btn-white" href="#trailer">Watch the trailer</a>
+    <a class="btn btn-discord" href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">Join the club on Discord</a>
+  </div>
+  <div class="chibis" aria-hidden="true">
+    <img src="assets/chibi/sayori_chibi.png" data-hop="assets/chibi/sayori_hop.png" alt="">
+    <img src="assets/chibi/natsuki_chibi.png" data-hop="assets/chibi/natsuki_hop.png" alt="">
+    <img src="assets/chibi/yuri_chibi.png" data-hop="assets/chibi/yuri_hop.png" alt="">
+    <img src="assets/chibi/monika_chibi.png" data-hop="assets/chibi/monika_hop.png" alt="">
+  </div>
+  <p class="wip">Work in progress: everything you see is subject to change.</p>
+</header>
+
+<main>
+
+<!-- ============================================================ TRAILER -->
+<section id="trailer" class="section">
+  <h2 class="title">The Trailer</h2>
+  <div class="video" id="video" role="button" tabindex="0" aria-label="Play the trailer">
+    <img src="assets/banner.jpg" alt="">
+    <span class="play">▶</span>
+  </div>
+  <p class="center small">Plays from YouTube when you click it.</p>
+</section>
+
+<!-- ============================================================ CLUB -->
+<section id="club" class="section">
+  <h2 class="title">Meet the Club</h2>
+  <p class="lead">Four girls, one clubroom, far too many cupcakes. Every one of them is routable, Monika included.</p>
+  <div class="club">
+    <article class="girl" style="--c:#4f9fdc; --c2:#dceeff">
+      <img src="assets/girls/sayori.png" alt="Sayori" loading="lazy">
+      <div class="girl-card">
+        <h3>Sayori</h3>
+        <p class="girl-role">Your neighbour since you were six</p>
+        <p>Sets four alarms. Only the duck one works. Has been brave by accident her whole life, and this year she's trying to be brave on purpose.</p>
+      </div>
+    </article>
+    <article class="girl" style="--c:#f0609c; --c2:#ffe0ee">
+      <img src="assets/girls/natsuki.png" alt="Natsuki" loading="lazy">
+      <div class="girl-card">
+        <h3>Natsuki</h3>
+        <p class="girl-role">Baker, manga expert, not cute</p>
+        <p>Runs a kitchen like a very small, very loud army. Will tell you your piped whale looks sad. Will also save you the lighthouse cupcake.</p>
+      </div>
+    </article>
+    <article class="girl" style="--c:#9064cc; --c2:#efe4ff">
+      <img src="assets/girls/yuri.png" alt="Yuri" loading="lazy">
+      <div class="girl-card">
+        <h3>Yuri</h3>
+        <p class="girl-role">Horror novels, tea, eleven candles</p>
+        <p>Texts like she's writing letters ("Warm regards, Yuri"). Quiet, until she starts talking about a book, and then you never want her to stop.</p>
+      </div>
+    </article>
+    <article class="girl" style="--c:#3f9e5c; --c2:#ddf3e3">
+      <img src="assets/girls/monika.png" alt="Monika" loading="lazy">
+      <div class="girl-card">
+        <h3>Monika</h3>
+        <p class="girl-role">Club president, laminates everything</p>
+        <p>Perfect at speeches, debates and paperwork. Terrible at claw machines. Has been writing a song since April and can't find the ending.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============================================================ FEATURES -->
+<section id="features" class="section">
+  <h2 class="title">What's Inside</h2>
+  <div class="features">
+    <div class="feature"><span class="ico">📱</span><h3>Your phone</h3><p>Group chats, late-night DMs and voice calls in a WhatsApp-style phone. From Act 4, all four girls text you every night.</p></div>
+    <div class="feature"><span class="ico">📝</span><h3>Poem game</h3><p>DDLC's word picker, rebuilt for four girls and four tastes, with themed word sets for each chapter.</p></div>
+    <div class="feature"><span class="ico">🌸</span><h3>Free time</h3><p>Spend your afternoons with whoever you like: baking, tea, the piano, or watering the hallway flowers.</p></div>
+    <div class="feature"><span class="ico">💗</span><h3>Choices that matter</h3><p>Hidden Love and Friendship for each girl, bold or patient romance, and small moments that come back later.</p></div>
+    <div class="feature"><span class="ico">🌅</span><h3>Lighting &amp; shading</h3><p>The girls take on each scene's light: sunsets, rainy days, candlelight, fireworks. Whoever's talking steps forward.</p></div>
+    <div class="feature"><span class="ico">🎨</span><h3>10 textbox themes</h3><p>From DDLC's own pink box to Midnight, Sepia and a theme for each girl, some with her handwriting.</p></div>
+    <div class="feature"><span class="ico">🏆</span><h3>56 achievements</h3><p>Plus a CG gallery, a music room and an endings book with 16 endings to find.</p></div>
+    <div class="feature"><span class="ico">🪪</span><h3>You, your way</h3><p>Pick your name and your pronouns: he, she or they. Show your Act on Discord with Rich Presence.</p></div>
+  </div>
+</section>
+
+<!-- ============================================================ GALLERY -->
+<section id="gallery" class="section">
+  <h2 class="title">Gallery</h2>
+  <div class="gallery">
+    <button data-full="assets/shots/shot1_main_menu.jpg" data-cap="The main menu."><img src="assets/shots/shot1_main_menu.jpg" alt="The main menu" loading="lazy"></button>
+    <button data-full="assets/shots/shot2_club_photo.jpg" data-cap="Golden Week: five people, one photo booth, one pair of cat ears."><img src="assets/shots/shot2_club_photo.jpg" alt="The club photo" loading="lazy"></button>
+    <button data-full="assets/shots/shot3_group_chat.jpg" data-cap="The club group chat."><img src="assets/shots/shot3_group_chat.jpg" alt="Group chat" loading="lazy"></button>
+    <button data-full="assets/shots/shot5_poem_game.jpg" data-cap="The poem game, now for four."><img src="assets/shots/shot5_poem_game.jpg" alt="The poem game" loading="lazy"></button>
+    <button data-full="assets/shots/shot6_storm.jpg" data-cap="The storm nobody could walk home through."><img src="assets/shots/shot6_storm.jpg" alt="The storm" loading="lazy"></button>
+    <button data-full="assets/shots/shot7_achievements.jpg" data-cap="Achievements."><img src="assets/shots/shot7_achievements.jpg" alt="Achievements" loading="lazy"></button>
+    <button data-full="assets/shots/lighting_sunset.jpg" data-cap="Lighting: a sunset lights the girls from the sun's side."><img src="assets/shots/lighting_sunset.jpg" alt="Sunset lighting" loading="lazy"></button>
+    <button data-full="assets/shots/lighting_candle.jpg" data-cap="Lighting: candlelight."><img src="assets/shots/lighting_candle.jpg" alt="Candlelight" loading="lazy"></button>
+    <button data-full="assets/shots/act5_sneak_01.jpg" data-cap="Act 5: Monika has never been inside an arcade. She is about to lose at every single game."><img src="assets/shots/act5_sneak_01.jpg" alt="Act 5 sneak peek: Monika" loading="lazy"></button>
+    <button data-full="assets/shots/act5_sneak_02.jpg" data-cap="Act 5: two hundred yen a week since March. Some dates are worth saving up for."><img src="assets/shots/act5_sneak_02.jpg" alt="Act 5 sneak peek: Natsuki" loading="lazy"></button>
+    <button data-full="assets/shots/act5_sneak_03.jpg" data-cap="Act 5: Tanabata is a month away. The wishes start early."><img src="assets/shots/act5_sneak_03.jpg" alt="Act 5 sneak peek: Yuri" loading="lazy"></button>
+    <button data-full="assets/shots/act5_sneak_04.jpg" data-cap="Act 5: the Literature Club Charter, rule one. Natsuki would like to file a complaint."><img src="assets/shots/act5_sneak_04.jpg" alt="Act 5 sneak peek: the Charter" loading="lazy"></button>
+  </div>
+</section>
+
+<!-- ============================================================ ROADMAP -->
+<section id="roadmap" class="section">
+  <h2 class="title">Roadmap</h2>
+  <div class="roadmap">
+    <div class="act done"><span class="badge">In the demo</span><h3>Act 1 · Intro</h3><p>Joining the club, cupcakes, your first poem.</p></div>
+    <div class="act done"><span class="badge">In the demo</span><h3>Act 2 · First Drafts</h3><p>Poem day, free time, a festival plan.</p></div>
+    <div class="act done"><span class="badge">In the demo</span><h3>Act 3 · Golden Week</h3><p>A day out with the club, then a day with each girl.</p></div>
+    <div class="act done"><span class="badge">In the demo</span><h3>Act 4 · Rain Season</h3><p>A rainy June, nightly texts, and a storm.</p></div>
+    <div class="act written"><span class="badge">Written, polishing</span><h3>Act 5 · Festival Prep</h3><p>The week before the festival. A proper date. A Charter.</p></div>
+    <div class="act written"><span class="badge">Written, polishing</span><h3>Act 6 · The Festival</h3><p>Two festival days, and who you watch the fireworks with.</p></div>
+    <div class="act next"><span class="badge">Next</span><h3>The routes</h3><p>Summer, autumn, winter and spring with the girl you chose, or with all of them.</p></div>
+    <div class="act next"><span class="badge">Later</span><h3>16 endings</h3><p>Best, Romance and Missed for each girl, the Polycule, and a few secrets.</p></div>
+  </div>
+</section>
+
+<!-- ============================================================ DEVLOG -->
+<section id="devlog" class="section">
+  <h2 class="title">Devlog</h2>
+  <div class="devlog">
+    <article class="paper">
+      <p class="date">25 October 2026</p>
+      <h3>Lighting, shading, and the festival</h3>
+      <p>The girls now take on each scene's light: lit from the sun's side at sunset, dimmer and bluer at night, glowing by candlelight. In group scenes, whoever is talking steps forward and the others are softly shaded.</p>
+      <p>Act 6, the festival, is written too: two days of café shifts, a stage, and the fireworks. Then a big round of playtest fixes from Aoi's notes.</p>
+      <img src="assets/devlog/lighting_sheet.jpg" alt="Before and after lighting" loading="lazy">
+    </article>
+    <article class="paper">
+      <p class="date">24 October 2026</p>
+      <h3>Act 5: Festival Prep</h3>
+      <p>The festival is one week away and the club has a lot to do: banners, forty book cupcakes, a café, a song with no ending yet. And somewhere in between, some very important dates.</p>
+      <p>You can now go fast or take it slow: at key moments, choose to be bold or patient. (There may be achievements for both.)</p>
+    </article>
+    <article class="paper">
+      <p class="date">22 October 2026</p>
+      <h3>The demo is out!</h3>
+      <p>Acts 1 to 4 are playable right now, for free, on itch.io. About 40,000 words of club life: joining the club, the first poem day, Golden Week, and a rainy June that ends in a storm nobody can walk home through.</p>
+    </article>
+    <article class="paper">
+      <p class="date">16 October 2026</p>
+      <h3>Rain Season, and a much longer game</h3>
+      <p>Act 4 is written: a letter that didn't want to stay in a shoe locker, a rumour, and every night all four girls text you. Acts 1 to 3 also got about three times longer.</p>
+      <img src="assets/devlog/rain_season.jpg" alt="Rain Season" loading="lazy">
+    </article>
+  </div>
+  <p class="center">More devlogs (and sneak peeks you won't see anywhere else) are on <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">our Discord</a>.</p>
+</section>
+
+<!-- ============================================================ DISCORD -->
+<section id="discord" class="section">
+  <div class="discord">
+    <img class="discord-chibi" src="assets/chibi/sayori_hop.png" alt="">
+    <div>
+      <h2>Join the club on Discord</h2>
+      <p>Devlogs, Discord-only sneak peeks, bug reports, chapter feedback, poems, and a lot of duck emoji. Come say hi.</p>
+      <a class="btn btn-discord" href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">discord.gg/FV4pHRJVMU</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ DOWNLOAD -->
+<section id="download" class="section">
+  <h2 class="title">Download &amp; Install</h2>
+  <div class="install paper">
+    <p class="center"><a class="btn btn-pink" href="https://needy-aoi.itch.io/doki-doki-second-draft" target="_blank" rel="noopener">Get the demo on itch.io</a></p>
+    <p class="center small">Free, always. Windows, macOS and Linux. Demo 0.4.0: Acts 1 to 4 (3 to 5 hours).</p>
+    <ol>
+      <li>You need <b>Doki Doki Literature Club!</b> (free at <a href="https://ddlc.moe" target="_blank" rel="noopener">ddlc.moe</a> or on Steam). Please finish it first.</li>
+      <li>Download and unzip <b>Doki Doki Second Draft</b>.</li>
+      <li>In your DDLC folder, open the <code>game</code> folder and copy <code>audio.rpa</code>, <code>fonts.rpa</code> and <code>images.rpa</code>.</li>
+      <li>Paste them into the <code>game</code> folder <b>inside</b> the Doki Doki Second Draft folder. (Don't copy <code>scripts.rpa</code>.)</li>
+      <li>Run <code>DokiDokiSecondDraft.exe</code> (Windows), <code>DokiDokiSecondDraft.sh</code> (Linux) or the <code>.app</code> (Mac).</li>
+    </ol>
+    <p class="small">Content: wholesome slice-of-life romance with a teen cast. Hand-holding, nervous confessions, a few sweet kisses. No horror, no jump scares, no fourth-wall breaking.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <img src="assets/logo.png" alt="" class="footer-logo">
+  <p>Doki Doki Second Draft is a Doki Doki Literature Club fan game that is not affiliated with Team Salvato.
+    It is designed to be played only after the official game has been completed.
+    You can download Doki Doki Literature Club at: <a href="https://ddlc.moe" target="_blank" rel="noopener">https://ddlc.moe</a></p>
+  <p class="small">Story and direction: Aoi. Made with Ren'Py and the DDLC Mod Template 2.0. Backgrounds by Noraneko Games, Itsu and Unicorn Creates; Monika's sundress by RyuseDraws. No generative AI was used for the game's art, text or music. Full credits are in the game.</p>
+  <p class="small">
+    <a href="https://needy-aoi.itch.io/doki-doki-second-draft" target="_blank" rel="noopener">itch.io</a> ·
+    <a href="https://youtu.be/SDU9rJVWbdg" target="_blank" rel="noopener">YouTube</a> ·
+    <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">Discord</a>
+  </p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" aria-label="Previous">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button class="lb-next" aria-label="Next">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
