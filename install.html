@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Install · Doki Doki Second Draft</title>
+  <meta name="description" content="How to install Doki Doki Second Draft on Windows, Android, Mac and Linux, step by step with real screenshots.">
+  <meta property="og:title" content="Install Doki Doki Second Draft">
+  <meta property="og:description" content="Windows installer, Android APK and a step-by-step guide. Free, needs the original DDLC (also free).">
+  <meta property="og:image" content="https://aoi-doki.github.io/ddsd/assets/banner.jpg">
+  <meta name="theme-color" content="#e23a6f">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Yomogi&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav" aria-label="Main">
+  <a class="nav-logo" href="index.html"><img src="assets/logo.png" alt=""><span>DDSD</span></a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">☰</button>
+  <div class="nav-links" id="nav-links">
+    <a href="index.html">home</a>
+    <a href="index.html#watch">trailer</a>
+    <a href="#faq">help</a>
+    <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">discord</a>
+    <a class="nav-cta" href="install.html" aria-current="page">Download</a>
+  </div>
+</nav>
+
+<main id="main">
+<header class="page-head">
+  <div>
+    <h1>How to <span class="two">install</span></h1>
+    <p>Pick your device and follow along. It takes about five minutes. <span id="rel-line">Latest version: <b>Demo 2</b>.</span></p>
+  </div>
+  <div class="sticky yellow" style="transform:rotate(3deg)"><span class="tape top"></span><b>first: get DDLC (free)</b>
+    DDSD borrows DDLC's art and music, so you need the original game from <a href="https://ddlc.moe" target="_blank" rel="noopener">ddlc.moe</a>.
+    Please finish it first! (DDLC Plus doesn't have the right files.)</div>
+</header>
+
+<div class="platform-tabs" role="tablist" aria-label="Your device">
+  <button class="tab" role="tab" id="tab-windows" aria-controls="windows" aria-selected="true">
+    <svg viewBox="0 0 24 24"><path d="M3 5.5 10.5 4.4v7.1H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.5h7.5v7.1L3 18.5zM11.5 12.5H21V21l-9.5-1.3z"/></svg>Windows</button>
+  <button class="tab" role="tab" id="tab-android" aria-controls="android" aria-selected="false">
+    <svg viewBox="0 0 24 24"><path d="M7 9h10v8a1 1 0 0 1-1 1h-1v3h-2v-3h-2v3H9v-3H8a1 1 0 0 1-1-1zM5 9.5a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zM17 9.5a1 1 0 0 1 2 0v5a1 1 0 0 1-2 0zM7.2 8a4.9 4.9 0 0 1 9.6 0z"/></svg>Android</button>
+  <button class="tab" role="tab" id="tab-manual" aria-controls="manual" aria-selected="false">
+    <svg viewBox="0 0 24 24"><path d="M4 4h7l2 2h7v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/></svg>Mac / Linux</button>
+</div>
+
+<section class="section" style="padding-top:10px">
+
+  <!-- ============================================================ WINDOWS -->
+  <div class="panel narrow" id="windows" role="tabpanel" aria-labelledby="tab-windows">
+    <div class="panel-head">
+      <div><h2>Windows</h2><p>Windows 10 or 11. The installer sets everything up and keeps the game updated.</p></div>
+      <div>
+        <a class="btn btn-red" data-file="DDSD-Setup.exe" href="https://github.com/Aoi-doki/ddsd-releases/releases/latest/download/DDSD-Setup.exe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>DDSD-Setup.exe</a>
+        <p class="file-meta" data-meta="DDSD-Setup.exe">tiny! the game downloads inside it</p>
+      </div>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <h3>Get DDLC</h3>
+        <p>Download <b>Doki Doki Literature Club!</b> from <a href="https://ddlc.moe" target="_blank" rel="noopener">ddlc.moe</a> and leave
+          <code>ddlc-win.zip</code> in your <b>Downloads</b> folder. (Got the original DDLC on Steam? That works too.) The installer finds it by itself.</p>
+      </li>
+      <li class="step reveal">
+        <h3>Run DDSD-Setup.exe</h3>
+        <p>Your browser might say the file "isn't commonly downloaded": choose <b>Keep</b>.</p>
+        <p>Then Windows might show a blue <b>"Windows protected your PC"</b> box. That's because DDSD is a small fan project and doesn't pay for a code-signing certificate.
+          Click <b>More info</b>, then <b>Run anyway</b>.</p>
+        <div class="tip"><b>Is it safe?</b> It only installs into your own user folder (<code>%LOCALAPPDATA%\DDSD</code>), never asks for admin rights, and checks every download before using it.</div>
+      </li>
+      <li class="step reveal">
+        <h3>Press Install</h3>
+        <p>The launcher opens and puts a shortcut on your Desktop and Start menu. Press <b>Install</b>: it downloads the game (about 100 MB) and copies in DDLC's files.</p>
+        <div class="shots-row"><figure class="phone-shot wide"><img src="assets/install/launcher_install.png" alt="The DDSD launcher, ready to install" loading="lazy"><figcaption>the launcher, before installing</figcaption></figure></div>
+        <div class="tip"><b>"DDSD needs DDLC's files"?</b> Press <b>Locate DDLC</b> and pick your <code>ddlc-win.zip</code> or your DDLC folder.</div>
+      </li>
+      <li class="step reveal">
+        <h3>Play!</h3>
+        <p>When it says <b>Ready to play</b>, press <b>Play</b>. Next time, open <b>Doki Doki Second Draft</b> from your Desktop or Start menu.</p>
+        <div class="shots-row"><figure class="phone-shot wide"><img src="assets/install/launcher_ready.png" alt="The DDSD launcher, ready to play" loading="lazy"><figcaption>installed and ready</figcaption></figure></div>
+      </li>
+    </ol>
+    <div class="after">
+      <div class="paper reveal" style="--rot:-.5deg"><span class="tape top mint"></span>
+        <h3>Updates</h3>
+        <p>Always start the game from the DDSD shortcut. When there's a new version the launcher shows <b>Update</b>: one click, and your saves and DDLC's files stay put. The launcher updates itself too.</p>
+        <h3>Uninstalling</h3>
+        <p>Settings → Apps → Installed apps → <b>Doki Doki Second Draft</b> → Uninstall. Your saves stay in <code>%APPDATA%\RenPy</code> in case you come back.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ ANDROID -->
+  <div class="panel narrow" id="android" role="tabpanel" aria-labelledby="tab-android" hidden>
+    <div class="panel-head">
+      <div><h2>Android</h2><p>Android 5 or newer. You need about 600 MB free while you set it up. Do every step on the phone itself.</p></div>
+      <div>
+        <a class="btn btn-red" data-file="DDSD.apk" href="https://github.com/Aoi-doki/ddsd-releases/releases/latest/download/DDSD.apk">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>DDSD.apk</a>
+        <p class="file-meta" data-meta="DDSD.apk">about 70 MB</p>
+      </div>
+    </div>
+    <p class="small center" style="margin:-16px 0 34px">All screenshots are from a real phone (a Pixel 3a). Yours may look a little different.</p>
+    <ol class="steps">
+      <li class="step reveal">
+        <h3>Download DDLC (the PC version)</h3>
+        <p>Open <a href="https://teamsalvato.itch.io/ddlc" target="_blank" rel="noopener">DDLC's itch.io page</a> (it's where ddlc.moe sends you) and tap <b>Download Now</b>.
+          Tap <b>No thanks, just take me to the downloads</b>, then the <b>Download</b> button under <b>DDLC (Windows)</b>.</p>
+        <div class="shots-row">
+          <figure class="phone-shot tall"><img src="assets/install/a1_itch.jpg" alt="DDLC's itch.io page with the Download Now button" loading="lazy"><figcaption>tap Download Now</figcaption></figure>
+          <figure class="phone-shot tall"><img src="assets/install/a2_nothanks.jpg" alt="The pay-what-you-want box with the No thanks link" loading="lazy"><figcaption>it's free: tap "No thanks..."</figcaption></figure>
+          <figure class="phone-shot tall"><img src="assets/install/a3_downloads.jpg" alt="The downloads page with DDLC (Windows)" loading="lazy"><figcaption>download DDLC (Windows)</figcaption></figure>
+        </div>
+        <div class="tip"><b>Yes, the Windows one, on a phone.</b> You get <code>ddlc-win.zip</code> (about 230 MB). Don't unzip it: DDSD reads it directly, and only takes the art and music out.</div>
+      </li>
+      <li class="step reveal">
+        <h3>Download DDSD.apk and open it</h3>
+        <p>Tap the red <b>DDSD.apk</b> button above (if your browser warns you, tap <b>Download anyway</b>). Then open it from your notifications or your Files app.</p>
+        <div class="shots-row">
+          <figure class="phone-shot tall"><img src="assets/install/a4_files.jpg" alt="DDSD.apk in the Files app" loading="lazy"><figcaption>tap DDSD.apk</figcaption></figure>
+        </div>
+        <div class="tip"><b>The first time,</b> Android says it isn't allowed to install apps from there. Tap <b>Settings</b>, switch on <b>Allow from this source</b>, and go back.</div>
+      </li>
+      <li class="step reveal">
+        <h3>Get past Play Protect</h3>
+        <p>Google doesn't know DDSD (it's not on the Play Store: Team Salvato's rules don't allow fan games there), so it suggests a scan.
+          Tap <b>More details</b>, then <b>Install without scanning</b>. Your phone may ask for your fingerprint or PIN to confirm.</p>
+        <div class="shots-row">
+          <figure class="phone-shot tall"><img src="assets/install/a5_playprotect.jpg" alt="Play Protect: App scan recommended" loading="lazy"><figcaption>tap More details</figcaption></figure>
+          <figure class="phone-shot tall"><img src="assets/install/a6_details.jpg" alt="Play Protect details with Install without scanning" loading="lazy"><figcaption>then Install without scanning</figcaption></figure>
+          <figure class="phone-shot tall"><img src="assets/install/a7_installed.jpg" alt="App installed" loading="lazy"><figcaption>done! tap Open</figcaption></figure>
+        </div>
+      </li>
+      <li class="step reveal">
+        <h3>Tap PC, then pick ddlc-win.zip</h3>
+        <p>The first time DDSD opens, it asks for DDLC's files. Tap <b>PC</b> (you downloaded the PC version in step 1; ignore the "select Android if unsure" line).
+          Then pick <code>ddlc-win.zip</code>. Tap the search icon and type <b>ddlc</b> if you can't see it.</p>
+        <div class="shots-row">
+          <figure class="phone-shot wide"><img src="assets/install/a8_setup.jpg" alt="DDSD's first-launch screen with PC, Android and Quit" loading="lazy"><figcaption>tap PC</figcaption></figure>
+          <figure class="phone-shot tall"><img src="assets/install/a9_picker.jpg" alt="The file picker showing ddlc-win.zip" loading="lazy"><figcaption>tap ddlc-win.zip</figcaption></figure>
+        </div>
+      </li>
+      <li class="step reveal">
+        <h3>Wait a minute, then play!</h3>
+        <p>DDSD copies the art and music out of the zip, restarts by itself, and you're in. You can delete <code>ddlc-win.zip</code> afterwards to free up space.</p>
+        <div class="shots-row">
+          <figure class="phone-shot wide"><img src="assets/install/a10_extract.jpg" alt="Extracting images.rpa" loading="lazy"><figcaption>"Extracting images.rpa..."</figcaption></figure>
+          <figure class="phone-shot wide"><img src="assets/install/a11_menu.jpg" alt="The DDSD main menu on the phone" loading="lazy"><figcaption>welcome to the club ♥</figcaption></figure>
+        </div>
+        <div class="tip"><b>Good to know:</b> the very first start takes about 20 seconds. Black bars at the sides are normal on long phones (the game is 16:9). Tap the bottom of the screen for History, Skip, Auto, Save and Load.</div>
+      </li>
+    </ol>
+    <div class="after">
+      <div class="paper reveal" style="--rot:.5deg"><span class="tape top mint"></span>
+        <h3>Updates happen inside the app</h3>
+        <p>When a new version comes out, an <b>Update available</b> button appears at the top right of the main menu. Tap it, tap <b>Update</b>, and Android installs it over the old one.
+          Your saves and DDLC's files stay, so you don't need the zip again.</p>
+        <div class="shots-row" style="margin-bottom:34px">
+          <figure class="phone-shot wide"><img src="assets/install/a12_update_button.jpg" alt="The Update available button on the main menu" loading="lazy"><figcaption>the button (example)</figcaption></figure>
+          <figure class="phone-shot wide"><img src="assets/install/a13_update_prompt.jpg" alt="The update box with Update and Later" loading="lazy"><figcaption>tap Update</figcaption></figure>
+        </div>
+        <p>The first time, Android asks to let DDSD install apps (same as step 2), and Play Protect might show up again (same as step 3).</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ MANUAL -->
+  <div class="panel narrow" id="manual" role="tabpanel" aria-labelledby="tab-manual" hidden>
+    <div class="panel-head">
+      <div><h2>Mac, Linux &amp; manual</h2><p>The plain game, for macOS, Linux, Steam Deck, or if you'd rather not use the installer.</p></div>
+      <div>
+        <a class="btn btn-red" data-file="ddsd-game.zip" href="https://github.com/Aoi-doki/ddsd-releases/releases/latest/download/ddsd-game.zip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>ddsd-game.zip</a>
+        <p class="file-meta" data-meta="ddsd-game.zip">about 100 MB</p>
+      </div>
+    </div>
+    <ol class="steps">
+      <li class="step reveal"><h3>Unzip both</h3>
+        <p>Unzip <code>ddsd-game.zip</code> and your DDLC download (<code>ddlc-win.zip</code> or <code>ddlc-mac.zip</code>) somewhere easy, like your Desktop.</p></li>
+      <li class="step reveal"><h3>Copy DDLC's three files</h3>
+        <p>In DDLC's <code>game</code> folder, copy <code>audio.rpa</code>, <code>fonts.rpa</code> and <code>images.rpa</code>, and paste them into the <code>game</code> folder <b>inside</b> Doki Doki Second Draft.</p>
+        <div class="tip"><b>Not scripts.rpa!</b> That one is DDLC's story and would clash with ours. On a Mac, DDLC's files are inside the app: right-click it → Show Package Contents → Contents → Resources → autorun → game.</div></li>
+      <li class="step reveal"><h3>Play</h3>
+        <p>Run <code>DokiDokiSecondDraft.exe</code> (Windows), <code>DokiDokiSecondDraft.sh</code> (Linux) or <code>DokiDokiSecondDraft.app</code> (Mac: the first time, right-click → Open).</p>
+        <p class="small">Manual installs don't update themselves: grab the new zip and copy the three files over again.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============================================================ FAQ -->
+<section id="faq" class="section" aria-labelledby="faq-title">
+  <h2 class="title" id="faq-title" style="--tr:1deg">Help!</h2>
+  <div class="faq">
+    <details><summary>Is it really free?</summary>
+      <p>Yes, always. Team Salvato's guidelines don't allow selling fan games, and we wouldn't anyway.</p></details>
+    <details><summary>Why do I need DDLC? Can't you include it?</summary>
+      <p>The characters, art and music belong to Team Salvato. Their guidelines say fan games have to take them from the player's own copy of DDLC, so we can't include it or download it for you. The original DDLC is free at <a href="https://ddlc.moe" target="_blank" rel="noopener">ddlc.moe</a>.</p></details>
+    <details><summary>I have DDLC Plus. Does that work?</summary>
+      <p>Not on its own: DDLC Plus doesn't have <code>audio.rpa</code>, <code>fonts.rpa</code> and <code>images.rpa</code>. The original DDLC is still free, so grab it from <a href="https://ddlc.moe" target="_blank" rel="noopener">ddlc.moe</a>.</p></details>
+    <details><summary>Is it scary? Is it spoilery?</summary>
+      <p>Not scary at all: no jump scares, glitches or fourth-wall stuff. It's a wholesome romance with a teen cast (hand-holding, confessions, a few sweet kisses). It does assume you've finished DDLC, so it spoils the original.</p></details>
+    <details><summary>Will updates delete my saves?</summary>
+      <p>Never. On Windows saves live in <code>%APPDATA%\RenPy</code> (and the game folder). On Android they stay inside the app until you uninstall it.</p></details>
+    <details><summary>Windows says "Windows protected your PC". Is it a virus?</summary>
+      <p>No. Windows says that about any program without a paid code-signing certificate, which small fan projects usually don't have. Click <b>More info → Run anyway</b>.</p></details>
+    <details><summary>Android says "App not installed".</summary>
+      <ul>
+        <li>Make sure the download finished (about 70 MB) and try again.</li>
+        <li>If you installed a DDSD APK from somewhere else before, uninstall that one first.</li>
+        <li>Check you have about 600 MB free.</li>
+      </ul></details>
+    <details><summary>Android: "No DDLC assets were found" or "This ZIP is missing..."</summary>
+      <p>You probably tapped <b>Android</b> instead of <b>PC</b>, or picked another file. Open DDSD again, tap <b>PC</b>, and pick <code>ddlc-win.zip</code>.</p></details>
+    <details><summary>Steam Deck? iPhone? Mac?</summary>
+      <p>Steam Deck and Mac: yes, with the manual install. iPhone and iPad: no, sorry, there's no way to install fan games there.</p></details>
+    <details><summary>I found a bug / I have an idea!</summary>
+      <p>Tell us on <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">Discord</a> in #bug-reports or #suggestions. Screenshots help a lot.</p></details>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <img src="assets/logo.png" alt="" class="footer-logo">
+    <p><b>Doki Doki Second Draft</b> is a Doki Doki Literature Club fan game that is not affiliated with Team Salvato.
+      It is designed to be played only after the official game has been completed. You can download Doki Doki Literature Club at
+      <a href="https://ddlc.moe" target="_blank" rel="noopener">https://ddlc.moe</a>.</p>
+    <p class="footer-links">
+      <a href="index.html">home</a>
+      <a href="https://needy-aoi.itch.io/doki-doki-second-draft" target="_blank" rel="noopener">itch.io</a>
+      <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">discord</a>
+      <a href="https://github.com/Aoi-doki/ddsd-releases/releases" target="_blank" rel="noopener">all releases</a>
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
