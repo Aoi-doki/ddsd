@@ -28,6 +28,7 @@
     <a href="#photos">screenshots</a>
     <a href="#progress">progress</a>
     <a href="#news">news</a>
+    <a href="#changelog">changelog</a>
     <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">discord</a>
     <a class="nav-cta" href="install.html">Download</a>
   </div>
@@ -164,7 +165,9 @@
 <section id="photos" class="section" aria-labelledby="photos-title">
   <div class="wrap">
     <h2 class="title" id="photos-title" style="--tr:-1deg" data-note="(click to look closer)">Screenshots</h2>
-    <div class="photos">
+    <div class="slider">
+      <button class="slide-btn prev" aria-label="Previous screenshot">‹</button>
+      <div class="photos track" tabindex="0" aria-label="Screenshots (swipe or use the arrows)">
       <figure class="shot reveal"><button data-full="assets/shots/shot2_club_photo.jpg"><img src="assets/shots/shot2_club_photo.jpg" alt="The Golden Week club photo" loading="lazy"></button><figcaption>Golden Week. Five people, one photo booth, one pair of cat ears.</figcaption></figure>
       <figure class="shot reveal"><button data-full="assets/shots/lighting_sunset.jpg"><img src="assets/shots/lighting_sunset.jpg" alt="Sunset lighting" loading="lazy"></button><figcaption>Walking home at sunset.</figcaption></figure>
       <figure class="shot reveal"><button data-full="assets/shots/shot3_group_chat.jpg"><img src="assets/shots/shot3_group_chat.jpg" alt="The club group chat" loading="lazy"></button><figcaption>The group chat never sleeps.</figcaption></figure>
@@ -174,7 +177,10 @@
       <figure class="shot reveal"><button data-full="assets/shots/shot6_storm.jpg"><img src="assets/shots/shot6_storm.jpg" alt="The storm" loading="lazy"></button><figcaption>The storm nobody could walk home through.</figcaption></figure>
       <figure class="shot reveal"><button data-full="assets/shots/lighting_candle.jpg"><img src="assets/shots/lighting_candle.jpg" alt="Candlelight" loading="lazy"></button><figcaption>Yuri's eleven candles.</figcaption></figure>
       <figure class="shot reveal"><button data-full="assets/shots/act5_sneak_04.jpg"><img src="assets/shots/act5_sneak_04.jpg" alt="The Literature Club Charter" loading="lazy"></button><figcaption>The Club Charter, rule one. Natsuki would like to file a complaint.</figcaption></figure>
+      </div>
+      <button class="slide-btn next" aria-label="Next screenshot">›</button>
     </div>
+    <div class="dots" aria-hidden="true"></div>
   </div>
 </section>
 
@@ -222,6 +228,56 @@
         <p>Acts 1 to 4: joining the club, the first poem day, Golden Week, and a rainy June that ends in a storm nobody can walk home through.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<!-- ============================================================ CHANGELOG -->
+<section id="changelog" class="section" aria-labelledby="changelog-title">
+  <div class="wrap">
+    <h2 class="title" id="changelog-title" style="--tr:1deg">Changelog</h2>
+    <div class="changelog">
+      <details class="paper reveal" open>
+        <summary><span class="ver">0.5.0-demo2</span><span class="when">28 October 2026</span></summary>
+        <h3>New</h3>
+        <ul>
+          <li>Act 5, Festival Prep: proper dates, the Club Charter, a jealous Wednesday, the dress rehearsal and the prep weekend</li>
+          <li>Act 6, The Festival: two whole days, the café, the stage, Natsuki's dad, and the fireworks</li>
+          <li>A new club member: Hina</li>
+          <li>Android version (with a step-by-step guide) and a Windows installer that keeps the game updated</li>
+          <li>Pick how you look: Junichi, Mizumi or a doodle (you're in the club photo now)</li>
+          <li>Monika's own piano piece, whenever she plays</li>
+          <li>Lighting and shading: the girls take on the light of every scene</li>
+          <li>A bigger phone, chat bubbles in each girl's colour, and your own bubble colour</li>
+          <li>Text size slider and three choice-button styles: Original, Circular, Modern</li>
+          <li>Smoother scene changes: dissolves, music fades between acts, songs no longer restart</li>
+          <li>Thunder you can actually hear</li>
+        </ul>
+        <h3>Fixed</h3>
+        <ul>
+          <li>The crash after "Go straight home" in free time</li>
+          <li>Lots of story continuity fixes in Acts 2 to 4</li>
+          <li>Yuri now actually leaves the train; Act 4's Parfait Girls moment is just Natsuki</li>
+          <li>Discord shows the right play time</li>
+          <li>Achievement pop-ups, act cards, free-time spots, and long lines running off the textbox</li>
+        </ul>
+        <h3>Launcher 1.3</h3>
+        <ul>
+          <li>Locate DDLC is one simple file picker (pick ddlc-win.zip or DDLC.exe), with a progress bar</li>
+          <li>Sharp text on scaled screens (125%, 150%...), and a scrollbar on What's new</li>
+        </ul>
+      </details>
+      <details class="paper reveal">
+        <summary><span class="ver">0.4.0-demo</span><span class="when">22 October 2026</span></summary>
+        <h3>The first demo</h3>
+        <ul>
+          <li>Acts 1 to 4: joining the club, the first poem day, Golden Week, and Rain Season</li>
+          <li>The phone: group chats, late-night texts and calls</li>
+          <li>The poem game for four, free time, achievements, a gallery and a music room</li>
+          <li>10 textbox themes, your name and pronouns, and Discord Rich Presence</li>
+        </ul>
+      </details>
+    </div>
+    <p class="center small" style="margin-top:22px">Every download is on <a href="https://github.com/Aoi-doki/ddsd-releases/releases" target="_blank" rel="noopener">GitHub Releases</a>.</p>
   </div>
 </section>
 

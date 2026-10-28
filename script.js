@@ -94,12 +94,42 @@ $$(".chibis button").forEach((b) => {
   });
 });
 
-// ------------------------------------------------------------ screenshot carousel + lightbox
+// ------------------------------------------------------------ screenshot slider + lightbox
 const track = $(".track");
 if (track) {
-  const step = () => track.clientWidth * 0.8;
-  $(".car-prev").addEventListener("click", () => track.scrollBy({ left: -step(), behavior: "smooth" }));
-  $(".car-next").addEventListener("click", () => track.scrollBy({ left: step(), behavior: "smooth" }));
+  const slides = $$(".shot", track);
+  const prev = $(".slide-btn.prev"), next = $(".slide-btn.next"), dots = $(".dots");
+  const slideW = () => slides[0].getBoundingClientRect().width + parseFloat(getComputedStyle(track).columnGap || 0);
+  const perView = () => Math.max(1, Math.round(track.clientWidth / slideW()));
+  const pages = () => Math.max(1, slides.length - perView() + 1);
+  const page = () => Math.round(track.scrollLeft / slideW());
+  const go = (i) => track.scrollTo({ left: Math.max(0, Math.min(i, pages() - 1)) * slideW(), behavior: "smooth" });
+  const drawDots = () => {
+    dots.innerHTML = "";
+    for (let i = 0; i < pages(); i++) {
+      const d = document.createElement("button");
+      d.setAttribute("aria-label", "Screenshot " + (i + 1));
+      d.addEventListener("click", () => go(i));
+      dots.appendChild(d);
+    }
+    update();
+  };
+  const update = () => {
+    const i = page();
+    $$("button", dots).forEach((d, k) => d.setAttribute("aria-current", k === i));
+    prev.disabled = i <= 0;
+    next.disabled = i >= pages() - 1;
+  };
+  prev.addEventListener("click", () => go(page() - 1));
+  next.addEventListener("click", () => go(page() + 1));
+  track.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
+  track.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowLeft") { e.preventDefault(); go(page() - 1); }
+    if (e.key === "ArrowRight") { e.preventDefault(); go(page() + 1); }
+  });
+  window.addEventListener("resize", drawDots);
+  slides.forEach((sl) => sl.classList.add("shown"));   // no scroll fade-in inside the strip
+  drawDots();
 }
 const shots = $$(".shot button");
 const box = $("#lightbox");
