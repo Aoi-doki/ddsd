@@ -1,0 +1,197 @@
+{
+ "updated": "2026-11-05",
+ "items": [
+  {
+   "kind": "update",
+   "title": "Version 0.5.28-demo2",
+   "body": "New: A whole new look (Settings › Themes): textbox styles (Rounded, Notebook, real frosted Glass, Minimal), decorations (Clouds, Sky, Petals, Sparkles), main menu layouts, a new pause menu (Esc) and icon buttons you can put in five places; Choices and History match your textbox (click a History line to rewind there), and rewind is on: the Back icon or the mouse wheel; Extras › Chapters: start again from any act you've reached, and Route select after you finish Act 6; \"Story so far\": a short recap when you load a save; Seen choices get a tick, and a new button skips to the next choice; Poem hints after your first clear: a heart in the colour of the girl who loves each word; Gentle content notes before Sayori's heaviest scenes (Settings › Game › Help turns them off); Phone wallpapers (any CG you've seen) and stickers you can send in chats; Achievements: hints for the secret ones, progress bars and a prettier pop-up; Autosave on every choice, F5 / F9 quick save and load, F12 for a screenshot without the textbox; Launcher 1.8: a News tab with updates, devlogs and sneak peeks, beta codes and one-click mod installs; Android: beta codes (Settings › Player › Beta). Fixed: The icons under the textbox hiding with the \"On hover\" position; Dark themes: the name, pronoun and look windows are easy to read; Switching back to the Original theme puts every menu back exactly the way DDLC had it.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "5 November 2026"
+  },
+  {
+   "kind": "sneak",
+   "title": "Sneak peek: the big UI revamp!",
+   "body": "New main menu layouts, a pause menu made of tiles, icon buttons, new textbox styles with clouds/petals/sparkles, and every theme now colours the WHOLE game: settings, save/load, everything.",
+   "image": "assets/news/sneak-1565824697818550313.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "30 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "DDSD 0.5.26 is out",
+   "body": "Your saves can follow you now: turn on Sync in Save/Load, type the same code on your other PC or phone, and it syncs by itself every few minutes. Also: the line on the girls' sprites is gone, and the launcher plays Monika's Waltz. Your saves are kept: update from the launcher or the \"Update available\" button on Android.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "30 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.5.26-demo2",
+   "body": "New: Auto sync: Save/Load › Sync… › Turn on gives you a code. Type the same code on your other PC or phone, and every few minutes your saves and progress swap in the background (no more Upload/Download codes, no black screen); Autosaves are back (the \"A\" page in Save/Load) while sync is on; Launcher 1.6: soft music (Monika's Waltz), with a note button to turn it off. Fixed: The thin line down the middle of the girls' sprites on bigger screens.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "30 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "DDSD 0.5.25 is out",
+   "body": "New Club Colours textbox theme (each girl talks in her own colour), plus sharper, bigger phone text and fixed chat bubbles. Your saves are kept: update from the launcher or the \"Update available\" button on Android.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "29 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Patch 0.5.1: Hina has a face! 🌸",
+   "body": "Thank you for all the reports in #bug-reports and #general. Patch 0.5.1 is out:\n\n**New**\n• Hina finally has a sprite! (art by Storm Blaze, thank you!!)\n• New \"Your Look\" sprites: a boy and a girl in DDLC's own style (by Storm Blaze and u/shidodraws), with a picker that shows pictures in Settings\n• The phone is dark mode again by default (Settings › Themes › Phone)\n\n**Fixed**\n• Stuck on the ending card after the Party Pooper ending\n• Hina's homework photo in the group chat is no longer a blank page\n• Launcher 1.3: easier \"Locate DDLC\" (pick ddlc-win.zip or DDLC.exe), sharper text on scaled screens, a scrollbar on What's new\n\n**How to update:** Windows: open the DDSD launcher and press **Update**. Android: tap **Update available** on the main menu. Your saves are kept.\nDownload / changelog: https://aoi-doki.github.io/ddsd/",
+   "image": "assets/news/devlog-1565154198704889949.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "29 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.5.25-demo2",
+   "body": "New: Club Colours textbox theme (Settings › Themes): Sayori talks in blue, Natsuki in pink, Yuri in violet and Monika in green. Fixed: Phone text is sharp now (it was a little blurry) and a bit bigger; Chat bubble tails join the bubble properly; The reply choices no longer cover the message you're answering; Message times no longer split onto two lines.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "29 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.5.2-demo2",
+   "body": "New: Mod Hub in the launcher: browse community DDLC mods and install them in one click, or share your own (every mod is virus-scanned and checked by hand first); Menu sounds: Settings › Menu Sounds (DDLC, Chime, Pop or Music box); Saves on every device: Save/Load › Upload Sync gives you a code, type it on your other PC or phone with Download Sync. Fixed: The classroom has a chalkboard, not a whiteboard; Doki-colour chat bubbles are easier to see on the light phone; Removed a leftover \"Uncensored Mode\" option from the mod template (DDSD never had any such content). Launcher 1.5: New Mods tab: My mods, Browse (the Mod Hub), Share a mod, Report.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "29 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.5.1-demo2",
+   "body": "New: Hina has a face now! (art by Storm Blaze); New sprites for \"Your Look\": a boy and a girl in DDLC's own style, and a picker with pictures in Settings; The phone is dark mode again by default (Settings › Themes › Phone). Fixed: After the Party Pooper ending, the game got stuck on the ending card; Hina's homework photo in the group chat isn't a blank page any more.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "29 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Find the club online 🌸",
+   "body": "Everything DDSD now lives in three places:\n\n**Website:** https://aoi-doki.github.io/ddsd/ (downloads, install guides for Windows and Android, devlog, changelog)\n**Discord:** you're already here! Invite your friends: https://discord.gg/FV4pHRJVMU\n**TikTok:** @dokidokiseconddraft (trailers and sneak peeks)\n\nDemo 2 is out now, free: https://github.com/Aoi-doki/ddsd-releases/releases/latest",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "28 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Demo 2 is out! 🌸 Acts 1 to 6, on Windows AND Android",
+   "body": "The whole common route is playable now: from your first day in the club all the way to the festival fireworks. Who will you watch them with?\n\n**Download (free):** https://github.com/Aoi-doki/ddsd-releases/releases/latest\n**How to install (with an Android guide):** https://aoi-doki.github.io/ddsd/install.html\n\n**Windows:** grab `DDSD-Setup.exe`. It installs the game, finds your DDLC files, and keeps everything updated. (If Windows says \"protected your PC\": More info → Run anyway.)\n**Android:** grab `DDSD.apk`. On first launch tap **PC** and pick the `ddlc-win.zip` you downloaded from ddlc.moe. The app updates itself from now on.\n**Mac / Linux:** `ddsd-game.zip`, then copy DDLC's audio/fonts/images.rpa into its game folder.\n\n**New in Demo 2**\n• Act 5 (Festival Prep) and Act 6 (The Festival), and a new member: Hina\n• You're in the club photo now: pick your look!\n• Monika's own piano piece, real lighting, a bigger phone with chat bubbles in each girl's colour\n• Text size slider, choice button styles, and a LOT of playtester fixes. Thank you all ♥\n\nYou need the original DDLC (free at ddlc.moe), and please finish it first. Work in progress: everything is subject to change. Bugs → #bug-reports!",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "28 October 2026"
+  },
+  {
+   "kind": "sneak",
+   "title": "First preview of custom OST's",
+   "body": "Well, This is monikas waltz as the name suggests. Please do tell me how do you guys feel about it.",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "28 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.5.0-demo2",
+   "body": "New: Act 5, Festival Prep: proper dates, the Club Charter, a jealous Wednesday, the dress rehearsal and the prep weekend; Act 6, The Festival: two whole days, the café, the stage, Natsuki's dad, and the fireworks; A new club member: Hina; Android version (with a step-by-step guide) and a Windows installer that keeps the game updated; Pick how you look: Junichi, Mizumi or a doodle (you're in the club photo now); Monika's own piano piece, whenever she plays; Lighting and shading: the girls take on the light of every scene; A bigger phone, chat bubbles in each girl's colour, and your own bubble colour; Text size slider and three choice-button styles: Original, Circular, Modern; Smoother scene changes: dissolves, music fades between acts, songs no longer restart; Thunder you can actually hear. Fixed: The crash after \"Go straight home\" in free time; Lots of story continuity fixes in Acts 2 to 4; Yuri now actually leaves the train; Act 4's Parfait Girls moment is just Natsuki; Discord shows the right play time; Achievement pop-ups, act cards, free-time spots, and long lines running off the textbox. Launcher 1.3: Locate DDLC is one simple file picker (pick ddlc-win.zip or DDLC.exe), with a progress bar; Sharp text on scaled screens (125%, 150%...), and a scrollbar on What's new.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "28 October 2026"
+  },
+  {
+   "kind": "sneak",
+   "title": "Sneakpeaks of the new themes! (its not new more like revamped)",
+   "body": "",
+   "image": "assets/news/sneak-1564019968629145724.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "new app incoming!",
+   "body": "Due to my recent free time, I am planning on making an installer app, as the amount of updates i can do per day is pretty good.\nSo im implementing a quick update feature on that app for who ever wants it. (App is going to be an installer too.)\n\n*welcome to the doki family!*\n\n(PS: ITS FOR EASIER BUG FIXING AND UPLOAD OF NEW UPDATES.)",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "sneak",
+   "title": "Sneakpeaks of ACT 5!",
+   "body": "",
+   "image": "assets/news/sneak-1563893238857736264.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Demo 2 coming soon!",
+   "body": "**DEMO 2 !!**\nIts gonna including Act 5-6.\n\n*PS: if you find any bugs please do report it. Thank you!*",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "sneak",
+   "title": "SNEAK PEAKS FOR ACT 5!!",
+   "body": "WELP HERE WE GO!\n(ive even went far to create an app for this lol)",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Act 5 is going pretty well.",
+   "body": "Welp, act 5 is figting against me cuz of how long it is.\nOH Well\nDemo 2 will come out soon\nExpected date on \n**28th or 31st of October**\n\nThanks for following this everyone! stay doki!",
+   "image": "assets/news/devlog-1563709741216178326.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "25 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Shader testing!",
+   "body": "# IVE ADDED SHADERS!!\nAct 5 is coming pretty well for the starting! and i have revamped the UI of the old acts!",
+   "image": "assets/news/devlog-1563635632213860452.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "24 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "Act 5 is being worked on right now!",
+   "body": "Hello! \nI am **Riri** Im working now on ACT 5 of the mod **Doki Doki Second Draft**\n\n# Demo 2 might come out after ACT 5 or ACT 6!\n\nI cant wait for you guys to try it out!\n\n- Riri!",
+   "image": "assets/news/devlog-1563606867052208238.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "24 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "🌸 The DDSD demo is OUT!",
+   "body": "**Acts 1 to 4 are playable right now, for free:**\n👉 **https://needy-aoi.itch.io/doki-doki-second-draft**\n\nAbout 40,000 words of club life: joining the club, the first poem day, Golden Week with a day out with each girl, and a rainy June that ends in a storm nobody can walk home through. ☔\n\n**How to install:** unzip it, then copy `audio.rpa`, `fonts.rpa` and `images.rpa` from your DDLC `game` folder into DDSD's `game` folder, and run `DokiDokiSecondDraft.exe`. You need DDLC (free at ddlc.moe).\n\n🎬 **Trailer:** https://youtu.be/SDU9rJVWbdg\n\nPlease tell us what you think in **#chapter-feedback**, and report anything broken in **#bug-reports**. It's a work in progress, so everything is subject to change, and your feedback really shapes it. 💕\n\nNext up: Act 5, Festival Prep. 🎪",
+   "image": "assets/news/devlog-1562726873459593216.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "22 October 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.4.0-demo",
+   "body": "The first demo: Acts 1 to 4: joining the club, the first poem day, Golden Week, and Rain Season; The phone: group chats, late-night texts and calls; The poem game for four, free time, achievements, a gallery and a music room; 10 textbox themes, your name and pronouns, and Discord Rich Presence.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "22 October 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "☔ Devlog: Rain Season, and a much longer game",
+   "body": "**Chapter 4 \"Rain Season\" is written!** A rainy week in June that ends in a storm nobody can walk home through. 🌧️\n• A letter that really, *really* didn't want to stay in a shoe locker\n• A rumour that goes round the whole school\n• Every night, **all four girls text you**, and whoever you answer changes how the next morning starts\n• For the first time, the game shows you a scene **you're not in** 👀\n• Romance is officially in bloom 💕 (no spoilers, but some of you are going to scream)\n\n**Chapters 1–3 got about 3× longer.** You asked for more, so the club talks more: class notes from Sayori, a clubroom tour, a rhyme debate where *you* break the tie, staying after club to help someone tidy up, a festival brainstorm, Natsuki's secret cupcake pitch, Yuri's fear of reading out loud, and a lot more. Every scene you liked is still there, word for word.\n\n**New stuff**\n🏆 6 new achievements (a couple of them secret)\n💬 A **Join the club on Discord** button on the main menu and on your Rich Presence card\n📖 New **#chapter-feedback** forum: one post per chapter, spoilers allowed inside\n🐛 **#bug-reports** and 💡 **#suggestions** now have tags\n\n**Next:** chapter 5, Festival Prep. 🎪",
+   "image": "assets/news/devlog-1560425194047279168.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "16 October 2026"
+  }
+ ]
+}
