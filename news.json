@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-15",
  "items": [
+  {
+   "kind": "update",
+   "title": "Version 0.6.0-demo2",
+   "body": "New: Eight new textbox themes (Settings › Themes): Aurora, Matcha, Peach Fuzz, Mocha, Glacier, Dusk, Mono and Citrus; Button styles (Settings › Themes › Button style): Classic, Pill, Glass and Flat, for the menus, the pause tiles and the back button. Improved: Readability: name tags, the icons under the textbox and Settings text now meet a proper contrast level on every theme; Dark themes: page titles are lighter, and the selected theme card no longer flashes bright pink; Settings and Extras: unselected options are darker, and the page you're on is easier to spot; Extras › Chapters scrolls, ready for more acts. Fixed: A typo in Yuri's prep-weekend text.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "15 November 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "DDSD 0.5.28 is out",
+   "body": "The big new look is here: new textbox styles (yes, real frosted glass), cloudy Sky boxes, main menu layouts and a new pause menu. Plus a lot of little comforts: Chapters and Route select, a \"story so far\" recap, ticks on choices you've seen, skip to the next choice, poem hints after your first clear, phone wallpapers and stickers, and nicer achievements. The launcher has a News tab now too. Your saves are kept: update from the launcher or the \"Update available\" button on Android.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": "assets/news/devlog-1567921282643918992.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "5 November 2026"
+  },
   {
    "kind": "update",
    "title": "Version 0.5.28-demo2",
@@ -184,14 +200,6 @@
    "image": null,
    "link": "https://aoi-doki.github.io/ddsd/#changelog",
    "date": "22 October 2026"
-  },
-  {
-   "kind": "devlog",
-   "title": "☔ Devlog: Rain Season, and a much longer game",
-   "body": "**Chapter 4 \"Rain Season\" is written!** A rainy week in June that ends in a storm nobody can walk home through. 🌧️\n• A letter that really, *really* didn't want to stay in a shoe locker\n• A rumour that goes round the whole school\n• Every night, **all four girls text you**, and whoever you answer changes how the next morning starts\n• For the first time, the game shows you a scene **you're not in** 👀\n• Romance is officially in bloom 💕 (no spoilers, but some of you are going to scream)\n\n**Chapters 1–3 got about 3× longer.** You asked for more, so the club talks more: class notes from Sayori, a clubroom tour, a rhyme debate where *you* break the tie, staying after club to help someone tidy up, a festival brainstorm, Natsuki's secret cupcake pitch, Yuri's fear of reading out loud, and a lot more. Every scene you liked is still there, word for word.\n\n**New stuff**\n🏆 6 new achievements (a couple of them secret)\n💬 A **Join the club on Discord** button on the main menu and on your Rich Presence card\n📖 New **#chapter-feedback** forum: one post per chapter, spoilers allowed inside\n🐛 **#bug-reports** and 💡 **#suggestions** now have tags\n\n**Next:** chapter 5, Festival Prep. 🎪",
-   "image": "assets/news/devlog-1560425194047279168.jpg",
-   "link": "https://discord.gg/FV4pHRJVMU",
-   "date": "16 October 2026"
   }
  ]
 }

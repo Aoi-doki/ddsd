@@ -210,6 +210,13 @@
       <p>Never. On Windows saves live in <code>%APPDATA%\RenPy</code> (and the game folder). On Android they stay inside the app until you uninstall it.</p></details>
     <details><summary>Windows says "Windows protected your PC". Is it a virus?</summary>
       <p>No. Windows says that about any program without a paid code-signing certificate, which small fan projects usually don't have. Click <b>More info → Run anyway</b>.</p></details>
+    <details><summary>My antivirus flagged or deleted DDSD-Setup.exe (for example "Trojan:Win32/Wacatac"). Is it a virus?</summary>
+      <p>No. It is a false positive, and it is common for small, unsigned installers that download files and update themselves: the antivirus guesses from how the program behaves, not from anything it actually does. You have two safe options:</p>
+      <ul>
+        <li><b>Skip the installer.</b> Download the plain game zip (<code>ddsd-game.zip</code>) from <a href="https://github.com/Aoi-doki/ddsd-releases/releases/latest" target="_blank" rel="noopener">GitHub Releases</a> and follow the <b>Mac, Linux &amp; manual</b> steps below. Nothing in it is an installer, and it runs the same game.</li>
+        <li><b>Check the file, then allow it.</b> Each release lists a SHA-256 checksum for every file in <code>latest.json</code> on the same page. If yours matches, open Windows Security › Protection history, restore the file, and choose <b>Allow</b>.</li>
+      </ul>
+      <p>Flagged anyway? Tell us on <a href="https://discord.gg/FV4pHRJVMU" target="_blank" rel="noopener">Discord</a> and say which antivirus and which file. We send every flagged build to Microsoft for review.</p></details>
     <details><summary>Android says "App not installed".</summary>
       <ul>
         <li>Make sure the download finished (about 70 MB) and try again.</li>
