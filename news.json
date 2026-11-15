@@ -2,6 +2,22 @@
  "updated": "2026-11-15",
  "items": [
   {
+   "kind": "devlog",
+   "title": "DDSD 0.6 is out",
+   "body": "Eight new textbox themes (Aurora, Matcha, Peach Fuzz, Mocha, Glacier, Dusk, Mono and Citrus) and new button styles (Pill, Glass and Flat) for the menus, the pause tiles and the back button. I also went through every theme for readability: name tags, the icons under the textbox and the Settings pages are easier to read now, especially on the dark themes. Your saves are kept: update from the launcher. Android stays on 0.5.28 for this one. If your antivirus complains about the installer, that's a false positive, and the plain game zip on the install page needs no installer at all.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": "assets/news/devlog-1571595885626925138.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "15 November 2026"
+  },
+  {
+   "kind": "update",
+   "title": "Version 0.6.1-demo2",
+   "body": "New: Act 7, Summer: the last day of term, a group chat where you plan the summer, a town map you walk around (morning and evening slots), a visit to each girl's home, the study group, the beach trip, the yukata summer festival, the last night of summer and exam results; Girls you don't spend time with notice, and they'll tell you so; The demo now ends after the summer. Notes: The beach and festival art uses stand-ins for now. Real art is coming.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "15 November 2026"
+  },
+  {
    "kind": "update",
    "title": "Version 0.6.0-demo2",
    "body": "New: Eight new textbox themes (Settings › Themes): Aurora, Matcha, Peach Fuzz, Mocha, Glacier, Dusk, Mono and Citrus; Button styles (Settings › Themes › Button style): Classic, Pill, Glass and Flat, for the menus, the pause tiles and the back button. Improved: Readability: name tags, the icons under the textbox and Settings text now meet a proper contrast level on every theme; Dark themes: page titles are lighter, and the selected theme card no longer flashes bright pink; Settings and Extras: unselected options are darker, and the page you're on is easier to spot; Extras › Chapters scrolls, ready for more acts. Fixed: A typo in Yuri's prep-weekend text.",
@@ -184,22 +200,6 @@
    "image": "assets/news/devlog-1563606867052208238.jpg",
    "link": "https://discord.gg/FV4pHRJVMU",
    "date": "24 October 2026"
-  },
-  {
-   "kind": "devlog",
-   "title": "🌸 The DDSD demo is OUT!",
-   "body": "**Acts 1 to 4 are playable right now, for free:**\n👉 **https://needy-aoi.itch.io/doki-doki-second-draft**\n\nAbout 40,000 words of club life: joining the club, the first poem day, Golden Week with a day out with each girl, and a rainy June that ends in a storm nobody can walk home through. ☔\n\n**How to install:** unzip it, then copy `audio.rpa`, `fonts.rpa` and `images.rpa` from your DDLC `game` folder into DDSD's `game` folder, and run `DokiDokiSecondDraft.exe`. You need DDLC (free at ddlc.moe).\n\n🎬 **Trailer:** https://youtu.be/SDU9rJVWbdg\n\nPlease tell us what you think in **#chapter-feedback**, and report anything broken in **#bug-reports**. It's a work in progress, so everything is subject to change, and your feedback really shapes it. 💕\n\nNext up: Act 5, Festival Prep. 🎪",
-   "image": "assets/news/devlog-1562726873459593216.jpg",
-   "link": "https://discord.gg/FV4pHRJVMU",
-   "date": "22 October 2026"
-  },
-  {
-   "kind": "update",
-   "title": "Version 0.4.0-demo",
-   "body": "The first demo: Acts 1 to 4: joining the club, the first poem day, Golden Week, and Rain Season; The phone: group chats, late-night texts and calls; The poem game for four, free time, achievements, a gallery and a music room; 10 textbox themes, your name and pronouns, and Discord Rich Presence.",
-   "image": null,
-   "link": "https://aoi-doki.github.io/ddsd/#changelog",
-   "date": "22 October 2026"
   }
  ]
 }
