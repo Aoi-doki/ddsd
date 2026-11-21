@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-21",
  "items": [
+  {
+   "kind": "update",
+   "title": "Version 0.7.0-MR-Theme",
+   "body": "New: A rebuilt look: new main menu, textbox, choices, Settings, Save/Load, pause menu, Extras and pop-ups, with six colour palettes in light or night mode; Act 8, Autumn: back to school, dates on the town map and each girl's own story (Sayori's cloudy week, Natsuki's dinner with her dad, Yuri's contest night, Monika's recital); the polycule route also gets the school finding out; A daily note from one of the girls on the main menu; The summer town map redone, a scene for every girl at every place, a second beat for each house visit, a beach shell hunt, festival stall games and real beach backgrounds; Soft background motion behind the menus (Settings › Look turns it off), pronouns and a Help guide in Settings. Improved: Every colour pair meets a proper contrast level, dialogue sits in the middle of the textbox and nothing overlaps; Phone stickers are your reply, and the phone's Match style follows your palette. Notes: This is the main release now: no more demo builds. The story ends after the first frost for now, and later updates carry on from there. Swimsuits, yukata and autumn art are stand-ins.",
+   "image": null,
+   "link": "https://aoi-doki.github.io/ddsd/#changelog",
+   "date": "21 November 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "DDSD 0.6.1 is on Android too",
+   "body": "The Android app now has Act 7 as well. If you already have it, tap \"Update available\" on the main menu. Same signing as before, so your saves are kept. Sorry for the earlier note saying it would stay on 0.5.28.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": null,
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "15 November 2026"
+  },
+  {
+   "kind": "devlog",
+   "title": "DDSD 0.6.1 is out: Act 7, Summer!",
+   "body": "The demo now plays through the whole summer. Plan it in the group chat, then walk a town map with morning and evening slots, visit each girl's home, study together, go to the beach, wear yukata at the summer festival, and find out how the exam results came out. The girls you don't spend time with notice, and they'll tell you. The beach and festival art uses stand-ins for now, real art is coming. Your saves are kept: update from the launcher. Android stays on 0.5.28 for now.\nPatch notes: https://aoi-doki.github.io/ddsd/#changelog",
+   "image": "assets/news/devlog-1571597717011042476.jpg",
+   "link": "https://discord.gg/FV4pHRJVMU",
+   "date": "15 November 2026"
+  },
   {
    "kind": "devlog",
    "title": "DDSD 0.6 is out",
@@ -176,30 +200,6 @@
    "image": null,
    "link": "https://discord.gg/FV4pHRJVMU",
    "date": "25 October 2026"
-  },
-  {
-   "kind": "devlog",
-   "title": "Act 5 is going pretty well.",
-   "body": "Welp, act 5 is figting against me cuz of how long it is.\nOH Well\nDemo 2 will come out soon\nExpected date on \n**28th or 31st of October**\n\nThanks for following this everyone! stay doki!",
-   "image": "assets/news/devlog-1563709741216178326.jpg",
-   "link": "https://discord.gg/FV4pHRJVMU",
-   "date": "25 October 2026"
-  },
-  {
-   "kind": "devlog",
-   "title": "Shader testing!",
-   "body": "# IVE ADDED SHADERS!!\nAct 5 is coming pretty well for the starting! and i have revamped the UI of the old acts!",
-   "image": "assets/news/devlog-1563635632213860452.jpg",
-   "link": "https://discord.gg/FV4pHRJVMU",
-   "date": "24 October 2026"
-  },
-  {
-   "kind": "devlog",
-   "title": "Act 5 is being worked on right now!",
-   "body": "Hello! \nI am **Riri** Im working now on ACT 5 of the mod **Doki Doki Second Draft**\n\n# Demo 2 might come out after ACT 5 or ACT 6!\n\nI cant wait for you guys to try it out!\n\n- Riri!",
-   "image": "assets/news/devlog-1563606867052208238.jpg",
-   "link": "https://discord.gg/FV4pHRJVMU",
-   "date": "24 October 2026"
   }
  ]
 }
